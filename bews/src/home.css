@@ -1,0 +1,95 @@
+
+.bg-home {
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  color: white; 
+}
+.content h1{
+  color: yellow;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.7);
+}
+.content h4{
+  color: aliceblue;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.konten2{
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: black;
+}
+
+.konten2 p{
+  color: black;
+  text-align: justify;
+}
+.additional-content {
+  background-image: url('src/assets/bgh3.jpeg');
+  background-size: cover; 
+  background-position: center; 
+  margin-bottom: 0; 
+}
+
+.additional-content h3 {
+  padding: 5px;
+  color: aliceblue;
+  text-align: center;
+}
+
+h3 {
+  color: aliceblue;
+}
+
+.additional-content p {
+  color: aliceblue;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Container{
+  margin-top: 20px;
+}
+
+.konten3 p{
+  color: black;
+  text-align: center;
+}
+
+.custom-image{
+  object-fit: contain;
+  width: 150%;
+  height: 250px;
+}
+.image-container{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.image-description {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  text-align: center;
+  color: #fff; /* Warna teks putih */
+}
+
+.bg-grey {
+  background-color: #9E9FA5; 
+}
+
+.bg-blue {
+  background-color: #213555; 
+}

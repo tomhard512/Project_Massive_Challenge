@@ -1,0 +1,45 @@
+/* kontak.css */
+
+.web-page-container {
+    margin-top: 50px;
+  }
+  
+  .left-section {
+    margin-top: 30px;
+    background-color: #001f3f; /* Navy blue background */
+    color: #fff; /* White text color */
+    height: 75vh;
+  }
+  
+  .photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Adjust height as needed */
+  }
+  
+  .photo-container img {
+    max-width: 80%; /* Adjust the width of the image */
+    height: 100%;
+    margin-top: 40%;
+  }
+  
+  .right-section {
+    padding: 20px; /* Add some padding for better spacing */
+  }
+  
+  .personal-info {
+    text-align: left;
+  }
+  
+  
+  .navy-button {
+    background-color: #001f3f; /* Navy blue background */
+    border-color: #001f3f; /* Border color, adjust if needed */
+    color: #fff; /* Text color */
+  }
+  
+  .navy-button:hover {
+    background-color: #002855; /* Darker shade on hover, adjust if needed */
+    border-color: #002855; /* Border color on hover, adjust if needed */
+  }

@@ -1,0 +1,44 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .col-md-4 {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  /* Styling for the payment method section */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Styling for the "Pesan Layanan" button */
+  .w-30 {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 35%;
+  }
+  /* .container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% tinggi viewport */
+  
+   */
+  /* Child container */
+  .payment-method-container {
+    text-align: center;
+  }
+  
+  /* Styling for the radio buttons */

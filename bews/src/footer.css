@@ -1,0 +1,37 @@
+
+.footer-logo {
+    width: 150px; /* Atur ukuran logo sesuai kebutuhan */
+    height: auto; /* Sesuaikan tinggi agar proporsi tetap terjaga */
+  }
+  
+  /* Gaya untuk ikon sosial media */
+  .social-media-icons img {
+    width: 33px; /* Atur ukuran ikon sosial media sesuai kebutuhan */
+    height: auto; /* Sesuaikan tinggi agar proporsi tetap terjaga */
+    margin-right: 10px; /* Atur jarak antara ikon sosial media */
+  }
+
+  .footer-middle p{
+    text-align: center;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center; /* Memposisikan ikon sosial media secara horizontal di tengah */
+    align-items: center; /* Memposisikan ikon sosial media secara vertikal di tengah */
+    margin-bottom: 10px; /* Memberikan ruang di bawah ikon sosial media */
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: flex-end; /* Memposisikan isi ke ujung kanan */
+    align-items: center; /* Memposisikan secara vertikal di tengah */
+  }
+  
+  
+.footer-left {
+  margin-top: 20px; 
+}
+.footer-contact {
+    margin-top: 30px;
+}
